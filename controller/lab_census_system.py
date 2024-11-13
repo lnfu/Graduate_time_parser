@@ -19,7 +19,7 @@ class LabCensusSystem:
         print("-----------------Searching...-----------------")
 
         # 開啟url
-        url = 'http://etd.lib.nctu.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dwebmge'
+        url = 'http://etd.lib.nycu.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dwebmge'
         browser = mechanicalsoup.StatefulBrowser()
         browser.open(url)
         browser.select_form('form[name="main"]')
